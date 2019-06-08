@@ -9,7 +9,7 @@ image: cuba-1.jpg
 
 # 算法
   暂时用的力扣中国<br>
-  1.[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)<br></br>
+  1.**[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)**<br>
   ```
   class Solution {
       public ListNode reverseList(ListNode head) {
@@ -26,9 +26,10 @@ image: cuba-1.jpg
   }
   ```
   主要在于定义前后两个引用，需要通过画图来清晰自己的思维，开始的时候光凭想，便开始写
-  代码，容易被弄晕。<br>
-  
-  2.[两数相加](https://leetcode-cn.com/problems/add-two-numbers/)
+  代码，容易被弄晕。
+  <br>
+  <br>
+  2.**[两数相加](https://leetcode-cn.com/problems/add-two-numbers/)**
    ``` 
    class Solution {
        public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -69,7 +70,8 @@ image: cuba-1.jpg
    考虑进位，处理好了进位就几乎完成了解答。看了下网上的答案，自己最后对进位为1则加到最高位的处理
    显得多余，应该放到while循环中，增加一个判断条件即可。
    <br>
-   3.[环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
+   <br>
+   3.**[环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)**
    ```
    public class Solution {
        public boolean hasCycle(ListNode head) {
@@ -89,7 +91,8 @@ image: cuba-1.jpg
    这个是看了网上的解答，而后才恍然大悟。利用了set的特性。但还有用快慢指针的，只要
    两者相等的时候不等于null，是不是就可以得出判断了呢？
    <br>
-   4.[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
+   <br>
+   4.**[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)**
    ```
    class Solution {
        public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
@@ -122,7 +125,8 @@ image: cuba-1.jpg
    ```
    从这个算法开始，自己尝试开始用哨兵节点，慢慢体会它的妙出。
    <br>
-   5.[删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
+   <br>
+   5.**[删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)**
    ```
    class Solution {
        public ListNode removeNthFromEnd(ListNode head, int n) {
@@ -156,7 +160,8 @@ image: cuba-1.jpg
    <br>
    看了官方答案，比较好的做法是用快慢指针，中间间隔为N，实在是巧妙。
    <br>
-   6.[链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
+   <br>
+   6.**[链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)**
    ```
    class Solution {
        public ListNode middleNode(ListNode head) {
@@ -178,6 +183,7 @@ image: cuba-1.jpg
    <br>
    官方比较好的做法是用快慢指针，慢指针走一步，快指针走两步，思想甚是巧妙。
    <br>
-
+   <br>
+   
 # 阅读点评
    
