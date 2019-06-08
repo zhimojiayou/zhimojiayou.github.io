@@ -8,7 +8,7 @@ image: cuba-1.jpg
 ---
 
 # 算法
-  暂时用的力扣中国<br></br>
+  暂时用的力扣中国<br>
   1.[反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)<br></br>
   ```
   class Solution {
@@ -68,7 +68,7 @@ image: cuba-1.jpg
    开始的时候，想得很复杂，可能是受反转链表的影响，竟然将两链表先去反转，然后走进了死胡同。该题主要
    考虑进位，处理好了进位就几乎完成了解答。看了下网上的答案，自己最后对进位为1则加到最高位的处理
    显得多余，应该放到while循环中，增加一个判断条件即可。
-   <br></br>
+   <br>
    3.[环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
    ```
    public class Solution {
@@ -88,7 +88,7 @@ image: cuba-1.jpg
    ```
    这个是看了网上的解答，而后才恍然大悟。利用了set的特性。但还有用快慢指针的，只要
    两者相等的时候不等于null，是不是就可以得出判断了呢？
-   <br></br>
+   <br>
    4.[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
    ```
    class Solution {
@@ -121,7 +121,7 @@ image: cuba-1.jpg
    }
    ```
    从这个算法开始，自己尝试开始用哨兵节点，慢慢体会它的妙出。
-   <br></br>
+   <br>
    5.[删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
    ```
    class Solution {
@@ -153,9 +153,9 @@ image: cuba-1.jpg
    ```
    我的解答是想着链表环的检测可以用Java自带的工具包，那这个无非就是要找出相应的索引，
    所以就用了List,从题的解答来看，自己完全走错了方向，虽然答案是正确的。汗颜。。。
-   <br></br>
+   <br>
    看了官方答案，比较好的做法是用快慢指针，中间间隔为N，实在是巧妙。
-   <br></br>
+   <br>
    6.[链表的中间结点](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
    ```
    class Solution {
@@ -175,9 +175,9 @@ image: cuba-1.jpg
        }
    }
    ```
-   <br></br>
+   <br>
    官方比较好的做法是用快慢指针，慢指针走一步，快指针走两步，思想甚是巧妙。
    <br>
-   
-   # 阅读点评
+
+# 阅读点评
    
