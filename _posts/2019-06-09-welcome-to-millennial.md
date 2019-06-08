@@ -180,10 +180,30 @@ image: cuba-1.jpg
        }
    }
    ```
-   <br>
    官方比较好的做法是用快慢指针，慢指针走一步，快指针走两步，思想甚是巧妙。
    <br>
    <br>
    
 # 阅读点评
+**[How to sort a Map by keys in Java 8 - Example Tutorial](https://javarevisited.blogspot.com/2017/07/how-to-sort-map-by-keys-in-java-8.html)**
+<br>
+<br>
+**[How to Sort a HashMap by Values in Ascending and Descending Order in Java 8 - Example Tutorial](https://javarevisited.blogspot.com/2017/09/java-8-sorting-hashmap-by-values-in.html)**
+<br>
+两篇文章可以一起看，一篇是对Map按照key进行排序操作，一篇是对Map按照value进行排序操作。
+<br>
+1.借助Java8的Stream及Lambda特性;
+<br>
+2.使用Entry接口中comparingByKey()/comparingByValue()方法进行比较，得出正序结果（
+如果想对一些特定的对象，依据特定的属性进行排序，实现这俩接口便可）。
+<br>
+3.离不开LinkedHashMap的配合（分为插入顺序与访问顺序，访问顺序一般涉及LUR算法使用），
+此处利用其保持插入排序的特性
+<br>
+4.注意点：toMap方法中，第三个参数表示有俩相同值时的取舍方案，一般第四个参数默认为HashMap实现。
+
+# 技术学习
+
+
+# 文章分享
    
