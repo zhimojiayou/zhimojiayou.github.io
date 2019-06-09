@@ -233,8 +233,10 @@ image: cuba-1.jpg
 
 后续有时间再接着总结下JVM内存模型，这也是自己知识模糊的点。。。
 
-# 文章分享
+
+# 文章分享 
    分享一篇两年前看到的文章，当时对我的帮助挺大，让我对Spring的AOP有了深入的理解。
    
    **[AOP 那点事儿](https://my.oschina.net/huangyong/blog/161338)**
+   
    **[AOP 那点事儿（续集）](https://my.oschina.net/huangyong/blog/161402)**
